@@ -1,0 +1,14 @@
+#Account
+# name , balance
+# getYearlyBalance() → balance * 12
+
+#SavingAccount
+# name , balance , bonus
+# getYearlyBalance() → (balance + bonus) * 12
+
+#InvestAccount
+# name , balance , rate
+# getYearlyBalance() → (balance + (balance * rate)) * 12
+
+#test_account
+#Account , SavingAccount , InvestAccount
